@@ -1,5 +1,5 @@
 {
-  "name": "@searchspring/eslint-config-dacq-eslint",
+  "name": "@searchspring/dacq-eslint",
   "version": "1.0.0",
   "author": "Searchspring",
   "description": "ESLint config for DACQ TS projects",
