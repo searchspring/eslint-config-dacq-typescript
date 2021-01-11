@@ -1,5 +1,5 @@
 {
-  "name": "dacq-eslint",
+  "name": "eslint-config-dacq-eslint",
   "version": "1.0.0",
   "author": "Searchspring",
   "description": "ESLint config for DACQ TS projects",
@@ -11,6 +11,9 @@
     "eslint-config-airbnb-typescript": "^12.0.0",
     "eslint-plugin-import": "^2.22.1"
   },
+  "peerDependencies": {
+    "eslint": ">= 7"
+  }
   "devDependencies": {
     "eslint": "^7.17.0"
   }
