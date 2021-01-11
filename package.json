@@ -13,7 +13,7 @@
   },
   "peerDependencies": {
     "eslint": ">= 7"
-  }
+  },
   "devDependencies": {
     "eslint": "^7.17.0"
   }
