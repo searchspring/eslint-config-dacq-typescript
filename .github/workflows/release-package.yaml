@@ -22,6 +22,7 @@ jobs:
         with:
           node-version: 14
           registry-url: 'https://npm.pkg.github.com/searchspring'
+          scope: '@searchspring'
           always-auth: true
 
       - name: Install dependencies
