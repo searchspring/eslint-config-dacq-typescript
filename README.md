@@ -11,7 +11,7 @@ Add [registry and authToken](https://docs.github.com/en/packages/guides/configur
 
 Add package:
 ```shell
-yarn add @searchspring/dacq-eslint-config-typescript@[version_number]
+yarn add @searchspring/eslint-config-dacq-typescript@[version_number]
 ```
 
 ## Publishing a package
