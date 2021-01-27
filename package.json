@@ -14,7 +14,7 @@
   "dependencies": {},
   "devDependencies": {
     "@commitlint/config-conventional": "^11.0.0",
-    "@searchspring/eslint-config": "^1.0.5",
+    "@searchspring/eslint-config": "^1.0.8-0",
     "@searchspring/prettier": "searchspring/prettier",
     "@types/node": "^14.14.22",
     "@typescript-eslint/eslint-plugin": "^4.9.1",
