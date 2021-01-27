@@ -61,7 +61,7 @@
     "c": "cz",
     "commit": "cz",
     "format": "fixpack && prettier --write \"**/*.{js,ts,json}\" && eslint --fix \"**/*.{js,ts}\"",
-    "lint": "eslint . --ext .ts",
+    "lint": "eslint . --ext .js",
     "prepare": "yarn format",
     "preversion": "yarn lint",
     "test": "echo \"Error: no test specified\" && exit 1"
