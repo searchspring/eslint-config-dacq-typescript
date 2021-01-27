@@ -14,6 +14,7 @@
   "dependencies": {},
   "devDependencies": {
     "@commitlint/config-conventional": "^11.0.0",
+    "@searchspring/eslint-config": "^1.0.5",
     "@searchspring/prettier": "searchspring/prettier",
     "@types/node": "^14.14.22",
     "@typescript-eslint/eslint-plugin": "^4.9.1",
@@ -27,7 +28,6 @@
     "husky": "^4.2.5",
     "lint-staged": "^10.4.1",
     "prettier": "^2.0.5",
-    "searchspring/eslint-config": "https://github.com/searchspring/eslint-config#9140d7b6a3ab05882dae805cd130ae62d57f9369",
     "standard-version": "^9.0.0",
     "typescript": "^4.1.2"
   },

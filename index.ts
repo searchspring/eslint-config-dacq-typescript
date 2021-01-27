@@ -2,7 +2,7 @@ module.exports = {
   extends: [
     "airbnb-typescript/base",
     "plugin:@typescript-eslint/recommended",
-    "searchspring/eslint-config", // TO-DO refactor to use @searchspring/eslint-config when https://github.com/searchspring/eslint-config/pull/1 is merged
+    "@searchspring/eslint-config",
   ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
