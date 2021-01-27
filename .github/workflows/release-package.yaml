@@ -10,10 +10,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      
-      - uses: actions/labeler@v2
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Cache node_modules
         uses: actions/cache@v2
@@ -30,6 +26,8 @@ jobs:
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
       - name: Lint
         run: yarn lint
