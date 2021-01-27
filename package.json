@@ -49,7 +49,7 @@
     "typescript"
   ],
   "license": "proprietary",
-  "main": "dist/index.js",
+  "main": "index.js",
   "peerDependencies": {
     "eslint": "^7.15.0"
   },
@@ -65,6 +65,5 @@
     "prepare": "yarn format",
     "preversion": "yarn lint",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "types": "dist/index.d.ts"
+  }
 }
