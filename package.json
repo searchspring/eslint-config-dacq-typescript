@@ -1,0 +1,70 @@
+{
+  "name": "@searchspring/dacq-eslint-config-typescript",
+  "description": "Our style",
+  "version": "1.0.0",
+  "author": "Łukasz Ostrowski",
+  "bugs": {
+    "url": "https://github.com/searchspring/dacq-eslint-config-typescript/issues"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/config-conventional": "^11.0.0",
+    "@searchspring/prettier": "searchspring/prettier",
+    "@types/node": "^14.14.22",
+    "@typescript-eslint/eslint-plugin": "^4.9.1",
+    "@typescript-eslint/parser": "^4.8.2",
+    "commitizen": "^4.1.2",
+    "commitlint": "^11.0.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^7.15.0",
+    "eslint-config-airbnb-typescript": "^12.0.0",
+    "fixpack": "^3.0.6",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.4.1",
+    "prettier": "^2.0.5",
+    "searchspring/eslint-config": "https://github.com/searchspring/eslint-config#9140d7b6a3ab05882dae805cd130ae62d57f9369",
+    "standard-version": "^9.0.0",
+    "typescript": "^4.1.2"
+  },
+  "files": [
+    "*.js",
+    "*.ts",
+    "!scratch.*"
+  ],
+  "homepage": "https://github.com/searchspring/dacq-eslint-config-typescript#readme",
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "keywords": [
+    "eslint",
+    "lint",
+    "searchspring",
+    "typescript"
+  ],
+  "license": "proprietary",
+  "main": "dist/index.js",
+  "peerDependencies": {
+    "eslint": "^7.15.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/searchspring/dacq-eslint-config-typescript.git"
+  },
+  "scripts": {
+    "c": "cz",
+    "commit": "cz",
+    "format": "fixpack && prettier --write \"**/*.{js,ts,json}\" && eslint --fix \"**/*.{js,ts}\"",
+    "lint": "eslint . --ext .ts",
+    "prepare": "yarn format",
+    "preversion": "yarn lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "types": "dist/index.d.ts"
+}

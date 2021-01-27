@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "lib": ["ES2019"],
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "noEmitOnError": true,
+    "target": "ES2019",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "declaration": true,
+    "outDir": "dist",
+    "baseUrl": "./"
+  },
+  "exclude": ["node_modules", "./coverage"]
+}
