@@ -38,7 +38,11 @@ module.exports = {
       "error",
       { classes: true, functions: false, typedefs: true, variables: true },
     ],
+    "@typescript-eslint/no-shadow": [
+      "error"
+    ],
     indent: ["error", 2, { SwitchCase: 1 }],
     "no-undef": "off",
+    "no-shadow": "off",
   },
 };
