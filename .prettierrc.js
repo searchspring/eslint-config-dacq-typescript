@@ -1,5 +1,5 @@
 module.exports = {
-  ...require("@searchspring/prettier"),
+  ...require('@searchspring/prettier'),
   useTabs: false,
-  trailingComma: "all",
+  trailingComma: 'all',
 };
