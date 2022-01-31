@@ -1,8 +1,9 @@
 {
-	"plugins": ["sort-keys-fix"],
-	"extends": ["airbnb-base", "plugin:prettier/recommended", "plugin:unicorn/recommended", "prettier", "prettier/unicorn"],
-	"rules": {
-      "indent": ["error", 2, { "SwitchCase": 1 }],
-		"sort-keys-fix/sort-keys-fix": "error"
-	}
+  "plugins": ["sort-keys-fix"],
+  "extends": ["airbnb-base", "plugin:prettier/recommended", "plugin:unicorn/recommended", "prettier", "prettier/unicorn"],
+  "rules": {
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "sort-keys-fix/sort-keys-fix": "error",
+    "unicorn/prefer-module": "off"
+  }
 }
