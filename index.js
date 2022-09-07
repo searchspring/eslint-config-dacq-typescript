@@ -29,5 +29,7 @@ module.exports = {
     indent: ['error', 2, { SwitchCase: 1 }],
     'no-shadow': 'off',
     'no-undef': 'off',
+    'unicorn/prefer-export-from': 'off',
+    'unicorn/prefer-top-level-await': 'off',
   },
 };
