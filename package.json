@@ -1,7 +1,7 @@
 {
   "name": "@searchspring/eslint-config-dacq-typescript",
   "description": "Our style",
-  "version": "100.100.0",
+  "version": "1.4.1",
   "author": "Łukasz Ostrowski",
   "bugs": {
     "url": "https://github.com/searchspring/eslint-config-dacq-typescript/issues"
@@ -12,7 +12,7 @@
     }
   },
   "dependencies": {
-    "@searchspring/eslint-config": "^1.0.8-0"
+    "@searchspring/eslint-config": "^2.0.0"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^16.0.0",
