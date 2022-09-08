@@ -1,7 +1,7 @@
 {
   "name": "@searchspring/eslint-config-dacq-typescript",
   "description": "Our style",
-  "version": "1.0.0",
+  "version": "1.4.1",
   "author": "Łukasz Ostrowski",
   "bugs": {
     "url": "https://github.com/searchspring/eslint-config-dacq-typescript/issues"
@@ -11,10 +11,11 @@
       "path": "cz-conventional-changelog"
     }
   },
-  "dependencies": {},
+  "dependencies": {
+    "@searchspring/eslint-config": "^2.0.0"
+  },
   "devDependencies": {
     "@commitlint/config-conventional": "^16.0.0",
-    "@searchspring/eslint-config": "^1.0.8-0",
     "@searchspring/prettier": "searchspring/prettier",
     "@types/node": "^14.14.22",
     "@typescript-eslint/eslint-plugin": "^5.10.1",
